@@ -1,0 +1,57 @@
+# Node.js dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# TypeScript cache
+*.tsbuildinfo
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+## AWS SAM
+.aws-sam
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+*.iml
+*.kate-swp
+
+# Coverage reports
+coverage/
+
+# Temporary files
+.~*
+*.tmp
+*.temp
+tmp/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+*.tfvars
+*.tfvars.json
+plan
+terraform-trace.log
+.terraform.lock.hcl
