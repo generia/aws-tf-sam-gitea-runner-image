@@ -20,4 +20,6 @@ jobs:
         with:
           context: .
           push: true
-          tags: ghcr.io/generia/aws-tf-sam-gitea-runner-image:latest
+          tags: |
+            ghcr.io/generia/aws-tf-sam-gitea-runner-image:${{ github.ref_name }}
+            ghcr.io/generia/aws-tf-sam-gitea-runner-image:latest
